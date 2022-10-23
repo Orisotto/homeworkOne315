@@ -1,0 +1,11 @@
+{
+  "name": "homeworkone",
+  "version": "1.0.0",
+  "description": "npm start",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server"
+  },
+  "author": "Jaron",
+  "license": "ISC"
+}

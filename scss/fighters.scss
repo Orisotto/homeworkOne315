@@ -1,0 +1,191 @@
+.container {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .pictureAndMoves {
+        width: 80%;
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../images/neon-city01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 75px;
+        margin-bottom: 75px;
+
+        .bio {
+            height: 100%;
+            width: 355px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .name {
+                width: 300px;
+                height: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 35px;
+                font-style: italic;
+                color: white;
+            }
+    
+            .portrait {
+                width: 355px;
+                height: 85%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+    }
+
+    .moveContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 75%;
+        height: 95%;
+
+        .moveList {
+            min-width: 20%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(100, 100, 100, .5);
+
+            .moveName {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                font-style: italic;
+                color: white;
+            }
+
+        }
+    }
+
+    #ryuBorder {
+        border: solid 5px blue;
+    }
+
+    #ryuBorderBottom {
+        border-bottom: solid 5px blue;
+    }
+
+    #kenBorder {
+        border: solid 5px red;
+    }
+
+    #kenBorderBottom {
+        border: solid 5px red;
+    }
+
+    #chunLiBorder {
+        border: solid 5px lightblue;
+    }
+
+    #chunLiBorderBottom {
+        border: solid 5px lightblue;
+    }
+
+    .guide {
+        width: 80%;
+        background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/neon-city01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 75px;
+
+        .title {
+            width: 100%;
+            height: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            color: white;
+        }
+
+        .textWrapper {
+            width: 100%;
+            height: 200px;
+            display: flex;
+
+            .prosContainer {
+                width: 50%;
+                height: 200px;
+                padding: 30px;
+                line-height: 30px;
+                border-bottom: solid 5px white;
+                border-right: solid 2.5px white;
+
+                .prosTitle {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-size: 30px;
+                    font-style: italic;
+                    color: green;
+                }
+
+                .prosBody {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: white;
+                }
+            }
+            .consContainer {
+                width: 50%;
+                height: 200px;
+                padding: 30px;
+                line-height: 30px;
+                border-bottom: solid 5px white;
+                border-left: solid 2.5px white;
+
+                .consTitle {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-size: 30px;
+                    font-style: italic;
+                    color: red;
+                }
+
+                .consBody {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: white;
+                }
+            }
+        }
+
+        .details {
+            width: 100%;
+            height: 500px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            padding: 30px;
+            color: white;
+        }
+    }
+    
+}
